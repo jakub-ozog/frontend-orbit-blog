@@ -1,0 +1,12 @@
+@import 'articles';
+@import 'layout';
+@import 'mixins';
+@import 'shared';
+@import 'variables';
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
