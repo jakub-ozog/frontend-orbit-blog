@@ -1,12 +1,15 @@
 <script setup>
-
-
+import HomeView from "./views/HomeView.vue";
 </script>
 
 <template>
-  <main>
-    <h1>Hello World</h1>
-  </main>
+  <div class="app">
+    <div class="container">
+      <HomeView />
+    </div>
+  </div>
 </template>
 
-<style scoped></style>
+<style lang="scss">
+@import './assets/layout';
+</style>
