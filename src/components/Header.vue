@@ -5,11 +5,13 @@ import logo from "../assets/images/logo.svg";
 <template>
   <header>
     <div class="logo">
-      <img :src="logo" alt="" />
+      <a href="/">
+        <img :src="logo" alt="" />
+      </a>
     </div>
 
-    <nav>
-      <ul>
+      <nav>
+        <ul>
         <li>
           <a href="">Home</a>
         </li>
