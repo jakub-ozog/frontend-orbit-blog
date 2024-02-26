@@ -33,13 +33,16 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  margin-bottom: 3rem;
+  min-height: 75px;
   .logo {
     img {
-      width: 250px;
+      width: 210px;
     }
   }
   nav {
     ul {
+      list-style-type: none;
       display: flex;
       justify-content: space-between;
       gap: 2rem;
