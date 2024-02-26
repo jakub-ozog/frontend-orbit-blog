@@ -15,6 +15,11 @@
   font-family: "Jura", sans-serif;
 }
 
+ul {
+  list-style-type: none;
+}
+
 body {
   background-color: $Black;
+  color: $White;
 }
