@@ -1,17 +1,19 @@
 <script setup>
+import { RouterView, RouterLink } from "vue-router";
 import Header from "./components/Header.vue";
 import HomeView from "./views/HomeView.vue";
 </script>
 
 <template>
-  <div class="app">
+  <div id="app">
     <div class="container">
       <Header />
-      <HomeView />
+      <RouterView />
     </div>
   </div>
 </template>
 
 <style lang="scss">
-@import './assets/layout';
+@import "./assets/style.scss";
+@import "./assets/style.scss";
 </style>

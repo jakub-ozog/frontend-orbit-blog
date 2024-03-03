@@ -2,8 +2,7 @@
 import RecentArticles from "../components/RecentArticles.vue";
 import articlesData from '../articles.json'
 
-const articles = articlesData
-console.log('articles data:', articles);
+const articles = articlesData;
 </script>
 
 <template>
@@ -18,6 +17,7 @@ console.log('articles data:', articles);
   <section class="">
     <RecentArticles :articles="articles" />
   </section>
+
 </template>
 
 <style lang="scss">
