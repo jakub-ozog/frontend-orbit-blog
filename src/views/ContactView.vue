@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <span>Articles View Component</span>
+  <span>Contact View Component</span>
 </template>
 
 <style lang="scss">

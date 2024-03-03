@@ -1,4 +1,5 @@
 <script setup>
+import { RouterView, RouterLink } from "vue-router";
 import logo from "../assets/images/logo.svg";
 </script>
 
@@ -13,13 +14,16 @@ import logo from "../assets/images/logo.svg";
       <nav>
         <ul>
         <li>
-          <a href="">Home</a>
+          <RouterLink to="/">Home</RouterLink> 
+          <!-- <a href="">Home</a> -->
         </li>
         <li>
-          <a href="">Artykuły</a>
+          <RouterLink to="/articles">Artykuły</RouterLink> 
+          <!-- <a href="">Artykuły</a> -->
         </li>
         <li>
-          <a href="">Kontakt</a>
+          <RouterLink to="/contact">Kontakt</RouterLink> 
+          <!-- <a href="">Kontakt</a> -->
         </li>
       </ul>
     </nav>
