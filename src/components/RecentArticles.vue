@@ -1,6 +1,5 @@
 <script setup>
 import { defineProps, computed } from "vue";
-import articles from "../articles.json";
 
 const props = defineProps({
   articles: {
@@ -11,7 +10,7 @@ const props = defineProps({
 
 
 const recentThreeArticles = computed(() => {
-    return props.articles.slice(-2)
+    return props.articles.slice(-3)
 })
 
 </script>
@@ -20,7 +19,7 @@ const recentThreeArticles = computed(() => {
   <p>Ostatnie artykuły:</p>
   <section class="recentArticles">
       <ul class="recentArticles__wrapper">
-          <li v-for="article in articles" :key="article.id">
+          <li v-for="article in recentThreeArticles" :key="article.id">
             <h3 class="recentArticles_title">
                 {{ article.title }}
             </h3>

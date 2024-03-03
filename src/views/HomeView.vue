@@ -1,11 +1,15 @@
 <script setup>
 import RecentArticles from "../components/RecentArticles.vue";
+import articlesData from '../articles.json'
+
+const articles = articlesData
+console.log('articles data:', articles);
 </script>
 
 <template>
   <main class="hero">
     <h1>Frontend Orbit</h1>
-    <h2>
+    <h2>  
       Czyli moja droga do nauki programowania w formie zwięzych artykułów.
       Enjoy!
     </h2>
